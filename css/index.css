@@ -226,7 +226,7 @@ header img{
   font-weight: 600;
   padding: 20px 0 25px 0;
   margin: 0px;
-  color: #fff;
+  color: #333;
 }
 .row-material form {
   text-align: center;
@@ -283,7 +283,10 @@ header img{
 .row-case .row>div img{
   max-width: 100%;
 }
-
+.row-case .glyphicon{
+  top: 50%;
+  font-size: 20px;
+}
 footer {
   text-align: center;
   font-size: 12px;
@@ -554,9 +557,7 @@ footer .cp2{
     margin-right: 5px;
   }
   
-  .row-material {
-    padding: 67px 0;
-  }
+
   .row-material form {
     text-align: center;
   }
@@ -598,6 +599,15 @@ footer .cp2{
     margin-bottom: 15px;
     height: 49px;
     line-height: 49px;
+  }
+  .row-case .wrap{
+    width: 876px;
+  }
+  .row-case .carousel-indicators{
+    bottom: -10px;
+  }
+  .row-case .glyphicon{
+    font-size: 40px;
   }
   .row-case .row{
     text-align: center;
